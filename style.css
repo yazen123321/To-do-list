@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(135deg, #1a1a2e, #162447);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#todoApp {
+  text-align: center;
+}
+
+.todo-wrapper {
+  background: #0f3460;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+#aufgabeEingabe {
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+#hinzufuegenBtn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #ff6b6b;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.3s;
+}
+
+#hinzufuegenBtn:hover {
+  background: #ff4757;
+}
+
+#aufgabenListe {
+  list-style: none;
+  margin-top: 15px;
+  padding: 0;
+}
+
+#aufgabenListe li {
+  padding: 8px 12px;
+  background: #1e1e2f;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+}
+
+#aufgabenListe li button {
+  background: #ff4757;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 2px 6px;
+  transition: background 0.3s;
+}
+
+#aufgabenListe li button:hover {
+  background: #e84118;
+}
